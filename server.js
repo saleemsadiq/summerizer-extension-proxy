@@ -24,7 +24,7 @@ app.post("/api/summarize", async (req, res) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          model: "mixtral-8x7b-32768", // or whichever model you are using
+          model: "llama3-8b-8192", // Updated to the active Llama 3 model
           messages: [
             {
               role: "system",
